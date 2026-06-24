@@ -18,7 +18,7 @@ public class EspecialidadController {
 
     private final EspecialidadService especialidadService;
 
-    // GET /api/especialidades → todas
+    // GET /api/especialidades → todas esta es una coneccion al API
     @GetMapping
     public List<Especialidad> obtenerTodas() {
         return especialidadService.obtenerTodas();
