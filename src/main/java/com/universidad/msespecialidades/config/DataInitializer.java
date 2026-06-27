@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 // Verificamos count() > 0 para no duplicar datos
 // si la app se reinicia con datos existentes.
 // ═══════════════════════════════════════════════════
+// se crea serializer
 @Slf4j
 @Component
 @RequiredArgsConstructor
