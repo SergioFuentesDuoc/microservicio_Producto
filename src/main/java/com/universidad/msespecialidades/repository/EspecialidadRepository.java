@@ -13,6 +13,7 @@ import java.util.List;
 // @Query usa JPQL: se escribe sobre CLASES y ATRIBUTOS Java,
 // NO sobre tablas y columnas SQL.
 // ═══════════════════════════════════════════════════
+//repositorio fue configurado
 public interface EspecialidadRepository extends JpaRepository<Especialidad, Long> {
 
     // SQL generado: SELECT * FROM especialidades WHERE activa = 1
