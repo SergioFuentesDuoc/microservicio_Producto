@@ -30,6 +30,7 @@ public class Especialidad {
     @Column(nullable = false, unique = true, length = 100)
     private String nombre;
 
+    //crear un limite de tamaño
     @Size(max = 300)
     @Column(length = 300)
     private String descripcion;
